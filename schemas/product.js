@@ -34,8 +34,8 @@ export default {
       ]
     },
     {
-      title: 'Tags',
-      name: 'tags',
+      title: 'Colors',
+      name: 'colors',
       type: 'array',
       of: [
         {
@@ -46,6 +46,19 @@ export default {
         layout: 'tags'
       }
     },
+    {
+        title: 'Sizes',
+        name: 'sizes',
+        type: 'array',
+        of: [
+          {
+            type: 'string'
+          }
+        ],
+        options: {
+          layout: 'tags'
+        }
+      },
     {
       name: 'vendor',
       title: 'Vendor',
