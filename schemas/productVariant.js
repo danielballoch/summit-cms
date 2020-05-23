@@ -9,9 +9,9 @@ export default {
       type: 'string'
     },
     {
-      title: 'Price',
-      name: 'price',
-      type: 'number'
+        title: 'Price',
+        name: 'price',
+        type: 'number'
     },
     {
       name: 'images',

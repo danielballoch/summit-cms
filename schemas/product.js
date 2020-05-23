@@ -9,6 +9,11 @@ export default {
       type: 'string'
     },
     {
+        name: 'id',
+        title: 'Printful Id',
+        type: 'string'
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -33,6 +38,19 @@ export default {
         }
       ]
     },
+    {
+        title: 'Specifications',
+        name: 'specifications',
+        type: 'array',
+        of: [
+          {
+            type: 'string'
+          }
+        ],
+        options: {
+          layout: 'tags'
+        }
+      },
     {
       title: 'Colors',
       name: 'colors',
