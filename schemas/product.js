@@ -13,6 +13,16 @@ export default {
         title: 'Printful Id',
         type: 'string'
     },
+    {   
+        name: 'featured',
+        title: 'Featured',
+        type: 'boolean'
+    },
+    {   
+        name: 'raffleDrop',
+        title: 'Raffle Drop',
+        type: 'boolean'
+    },
     {
       name: 'slug',
       title: 'Slug',
